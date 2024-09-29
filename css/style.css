@@ -1,0 +1,30 @@
+body {
+    font-family: "kay pho du"; 
+    background-color: #4F5C5B;
+    color: #5BBAB3; 
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: bungee;
+    font-size: 30pt;
+}
+
+header {
+    text-align: center;
+}
+
+#hero, footer {
+    color: #4F5C5B;
+    border: 2px solid #A7765F;
+    background-color: #5BBAB3;
+    text-align: center;
+    padding: 10px;
+}
+
+#hero img {
+    width: 300px;
+}
+
+#bio {
+    text-align: center;
+}
