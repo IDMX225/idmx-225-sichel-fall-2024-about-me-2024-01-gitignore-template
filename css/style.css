@@ -1,0 +1,29 @@
+body {
+    font-family:Dosis;
+    background-color: #F0950C;
+    color: #1E55B3
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family:"spicy rice";
+    font-size:30pt;
+}
+
+header {
+  text-align: center;
+}
+
+#hero, footer {
+  color:#0084F0;
+  background-color:#47361E ;
+  text-align: center;
+  padding: 10px;
+}
+
+#hero img{
+  width:320px
+}
+
+#bio {
+  text-align: center;
+}
