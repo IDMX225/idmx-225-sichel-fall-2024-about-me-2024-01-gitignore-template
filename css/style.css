@@ -46,6 +46,7 @@ header {
 
 #gallery {
     border: 2px solid #3414D9;
+    margin-bottom: 2rem;
 }
 
 #gallery img {
@@ -54,4 +55,34 @@ header {
 
 #gallery figure {
     text-align: center;
+}
+
+/* Literature */
+#lit {
+    border: 2px solid #3414D9; 
+    margin-bottom: 2rem;
+}
+
+#lit div {
+    padding: 2rem;
+    max-width: 40rem;
+    margin: 0 auto;
+}
+
+#lit div p {
+    padding: 0.3rem 0;
+    clear:both;
+}
+
+/* Dropcaps */
+
+#lit div p:nth-child(odd):first-letter {
+    color: black;
+    float: left;
+    font-size: 3em;
+    padding:.25em;
+    line-height: .65;
+    border: 1px double black;
+    background-image: radial-gradient(#EAA1AE);
+    font-family: "kay pho du"; 
 }
