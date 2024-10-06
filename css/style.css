@@ -1,7 +1,7 @@
 body {
     font-family: "kay pho du"; 
-    background-color: #4F5C5B;
-    color: #5BBAB3; 
+    background-color: #E4DEB8;
+    color: #EA4F40; 
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -14,9 +14,9 @@ header {
 }
 
 #hero, footer {
-    color: #4F5C5B;
-    border: 2px solid #A7765F;
-    background-color: #5BBAB3;
+    color: #3414D9;
+    border: 2px solid #3414D9;
+    background-color: #EAA1AE;
     text-align: center;
     padding: 10px;
 }
