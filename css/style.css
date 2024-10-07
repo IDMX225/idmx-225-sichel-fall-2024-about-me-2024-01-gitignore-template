@@ -34,6 +34,7 @@ header {
 
 /* Hobbies Section */
 
+
 #hobbies ul li:nth-last-child(odd) {
   color:rgb(113, 0, 141)
   
@@ -43,6 +44,7 @@ header {
 
 #gallery {
   border: 2px solid blueviolet;
+  margin-bottom: 2rem;
 }
 
 #gallery img{
@@ -51,4 +53,21 @@ header {
 
 #gallery figure {
   text-align:center;
+}
+
+/*Literature*/
+
+#lit {
+  border: 2px solid blueviolet;
+  margin-bottom:2rem;
+}
+
+#lit div{
+  padding:1rem;
+  max-width: 40rem;
+  margin: 0 auto;
+}
+
+#lit div p {
+    padding:0.3rem;
 }
