@@ -14,6 +14,7 @@ h1 {
 
 h2 {
     margin: 0.1rem;
+    margin-top: 2rem;
 }
 
 
@@ -125,6 +126,24 @@ section#hobbies {
     columns: 40rem;
 }
 
+
+#video {
+    border: 2pt dashed #3414D9;
+    margin-bottom: 2rem;
+}
+
+#myVideo {
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+
+#video figcaption {
+    margin: 1rem;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
 }
 
 
@@ -151,6 +170,24 @@ section#hobbies {
         max-width:100%;
         columns: 40rem;
     }
+
+    #video {
+        border: 2pt dashed #3414D9;
+        margin-bottom: 2rem;
+    }
+
+    #myVideo {
+        width: 50%;
+        display: block;
+        margin: auto;
+    }
+
+    #video figcaption {
+        margin: 1rem;
+        text-decoration: underline;
+        font-size: 20px;
+    }
+    
 }
 
   
