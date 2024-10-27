@@ -1,7 +1,7 @@
 body {
     font-family: "kay pho du"; 
     background-color: #E4DEB8;
-    color: gray; 
+    color: black; 
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -13,7 +13,7 @@ h1 {
 }
 
 h2 {
-    margin: 0.1em;
+    margin: 0.1rem;
 }
 
 
@@ -91,11 +91,12 @@ section#hobbies {
     font-family: "kay pho du";
     color: black;
     float: left;
-    font-size: 3em;
-    padding:.25em;
+    font-size: 3rem;
+    padding:.25rem;
     line-height: .65;
     border: 5px double black;
     background-image: radial-gradient(circle, #EAA1AE 90%, black 10%); 
+    margin-right: .5rem;
 }
 
 /* tablet size */
@@ -130,7 +131,7 @@ section#hobbies {
 
 /* large screen size */
 @media screen and (min-width: 100em) {
-    #gallergy {
+    #gallery {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr; }
 
@@ -138,12 +139,17 @@ section#hobbies {
         display: none;
     }
 
-    #gallergy h2 {
+    #gallery h2 {
         grid-column: 1/-1;
     }
 
     figure {
         display: block;
+    }
+
+    #lit div {
+        max-width:100%;
+        columns: 40rem;
     }
 }
 
