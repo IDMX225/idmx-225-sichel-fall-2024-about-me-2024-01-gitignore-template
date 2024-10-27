@@ -1,7 +1,7 @@
 body {
     font-family: "kay pho du"; 
     background-color: #E4DEB8;
-    color: #EA4F40; 
+    color: gray; 
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -88,14 +88,14 @@ section#hobbies {
 /* Dropcaps */
 
 #lit div p:first-child:first-letter {
+    font-family: "kay pho du";
     color: black;
     float: left;
     font-size: 3em;
     padding:.25em;
     line-height: .65;
-    border: 1px double black;
-    background-image: radial-gradient(#EAA1AE);
-    font-family: "kay pho du"; 
+    border: 5px double black;
+    background-image: radial-gradient(circle, #EAA1AE 90%, black 10%); 
 }
 
 /* tablet size */
@@ -111,7 +111,7 @@ section#hobbies {
     align-items: center;
     font-size: 2rem;
     margin-left: 1rem;
-   }
+   }    
 
 
    figure img {
