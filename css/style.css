@@ -92,7 +92,9 @@ section#video {
   margin-bottom: 1em;
 }
 
-
+#formElements {
+  display:grid;
+}
 
 
 /* Drop caps */
