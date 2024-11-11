@@ -36,7 +36,7 @@ main {
 
 .logo {
   display: flex;
-  align-items: center;
+  flex-direction:center;
 }
 
 .logo img{
@@ -45,7 +45,7 @@ main {
 }
 
 .logo h1 {
-  font-size: 1.2em;
+  font-size: 1em;
 }
 
 /* navigation list */
@@ -54,6 +54,7 @@ main {
   list-style: none;
   display: block;
   padding: 0.5em 0;
+  text-align: center;
 }
 
 
@@ -72,6 +73,13 @@ main {
   letter-spacing: 2px;
   text-decoration: none;
   display: inline-block;
+}
+
+.navbar-link a:hover, .navbar-link a:focus {
+  color:#333;
+  background-color: whitesmoke;
+  border-radius: 5px;
+  outline: none;
 }
 
 
