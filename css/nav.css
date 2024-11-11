@@ -11,13 +11,13 @@ html {
 */
 body {
   box-sizing: border-box;
-  padding: 0px;
-  margin: 0px;
+  padding: 0;
+  margin: 0;
 }
 
 /* add some padding back to rest of page */
 main {
-  padding: 2vw;
+  padding: 1em;
 }
 
 /* navbar */
@@ -28,8 +28,8 @@ main {
   display:flex;
   flex-direction: column;
   font-size:1.5rem;
-  margin-bottom: 2rem;
-  padding: 1rem;
+  margin-bottom: 1rem;
+  padding-right: 1rem;
 }
 
 
@@ -37,12 +37,13 @@ main {
 
 .logo {
   display: flex;
-  flex-direction:center;
+  flex-direction: center;
 }
 
 .logo img{
   height: 7vw;
   width: 7vw;
+  max-width: 100%;
 }
 
 .logo h1 {
@@ -89,3 +90,19 @@ media query for non-mobile nav bar
 min-width set to width of nav elements 
 such that no text wraps 
 */
+
+@media screen and (min-width:50rem) {
+
+  .navbar-link{
+    align-items: center;
+  }
+  .navbar {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .navbar ul {
+    display: flex;
+    justify-content: space-between;
+  }
+}
