@@ -19,18 +19,29 @@
     <header>
         <!-- the header shows logo and page title -->
         <nav class="navbar">
+
             <div class="logo">
                 <img src="img/lily-script-1-gh.svg" alt="my initials as a logo">
                 <h1>Web Dev I</h1>
             </div>
             <div class="navbar-links">
-                <ul>
+                <ul class="nav__menu">
                     <li> <a href="#bio">Bio</a></li>
                     <li> <a href="#gallery">Gallery</a></li>
                     <li> <a href="#lit">Blog</a></li>
                     <li> <a href="#contact">Contact Me</a></li>
                 </ul>
             </div>
+
+           <!-- Drop down -->
+           <input type="checkbox" id="nav__checkbox" class="nav__checkbox">
+           <label for="nav__checkbox" for="nav__toggle">
+               <svg class="menu" viewBox="0 0 448 5512"
+               width="100" title="bars"></svg>
+               <svg class="close" viewBox="0 0 384 512"
+               width="100" title="x"></svg>
+           </label>
+
         </nav>
         
     </header>
@@ -234,7 +245,7 @@
 
     <footer>
 
-        © 2024 - Glenneca Hall https://github.com/IDMX225/about-me-gh7101/tree/main
+        © 2024 - Glenneca Hall - https://github.com/IDMX225/about-me-gh7101/tree/main
 
     </footer>
 
