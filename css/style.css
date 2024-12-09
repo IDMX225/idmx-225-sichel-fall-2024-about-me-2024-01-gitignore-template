@@ -4,7 +4,7 @@ body {
     color: #955863; 
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, h7 {
     font-family: bungee;
     text-align: center;
 }
@@ -79,11 +79,19 @@ section#hobbies {
 }
 
 #gallery img {
-    max-width: 100%;
+    display: block;
+    margin: auto;
+    max-width: 40%;
 }
+
 
 #gallery figure {
     float: center;
+}
+
+#gallery figcaption {
+    display: block;
+    margin: auto;
 }
 
 /* Literature */
@@ -103,18 +111,26 @@ section#hobbies {
     clear:both;
 }
 
+#lit div img {
+    display: block;
+    margin: auto;
+    max-width: 40%;
+    padding-bottom: 3rem;
+}
+
+
 /* Dropcaps */
 
 #lit div p:first-child:first-letter {
     font-family: "kay pho du";
-    color: black;
+    color: #955863;
     float: left;
     font-size: 3rem;
     padding:.25rem;
-    line-height: .65;
-    border: 5px double black;
-    background-image: radial-gradient(circle, #EAA1AE 90%, black 10%); 
+    line-height: .65; 
     margin-right: .5rem;
+    font-weight: 1000;
+    text-decoration: underline;
 }
 
 /* tablet size */
@@ -140,7 +156,7 @@ section#hobbies {
 
 #lit div {
     max-width:100%;
-    columns: 40rem;
+    font-size: 20px;
 }
 
 
