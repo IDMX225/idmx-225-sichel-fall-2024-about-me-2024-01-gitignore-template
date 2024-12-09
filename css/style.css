@@ -39,8 +39,18 @@ header {
 /* Bio Section */ 
 
 #bio {
-    text-align: center;
+
+    font-size: 20px;
+    padding-left: 3rem;
+    padding-right: 3rem;
 }
+
+#bio div img {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+}
+
 
 /* Hobbies */
 
@@ -52,6 +62,13 @@ section#hobbies {
 
 #hobbies ul li:nth-child(3n+1) {
     color: blueviolet;
+}
+
+#hobbies p {
+    font-size: 20px;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 3rem;
 }
 
 /* Gallery */
@@ -66,7 +83,7 @@ section#hobbies {
 }
 
 #gallery figure {
-    text-align: center;
+    float: center;
 }
 
 /* Literature */
