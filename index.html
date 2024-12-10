@@ -111,24 +111,20 @@
   
     <article id="lit">
 
-      <h2>An Exerpt from Sherlock Holmes</h2>
+      <h2>About Variable Fonts</h2>
 
       <div>
-        <p>"And now I will show you what is really a very interesting study, Mr. Windibank," Holmes continued. "I think of writing another little monograph some of these days on the typewriter and its relation to crime. It is a subject to which I have devoted some little attention. I have here four letters which purport to come from the missing man. They are all typewritten. In each case, not only are the 'e's' slurred and the 'r's' tailless, but you will observe, if you care to use my magnifying lens, that the fourteen other characteristics to which I have alluded are there as well."</p>
+        <p>The introduction of variable fonts has revolutionized the way web typography is designed and implemented, merging aesthetics with enhanced performance. Variable fonts are an evolution of traditional font technology. Unlike static fonts that require separate files for each variation such as regular, bold, italic, or condensed style, a variable font integrates all these possibilities into a single, adaptable file. These variations are controlled through "axes," which are predefined parameters that designers can manipulate directly in CSS. Common axes include weight, adjusts the thickness of the font, from thin to heavy. Width, modifies the font's width, from condensed to extended. Slant, alters the angle of the typeface, similar to italics. </p>
 
-        <p>Mr. Windibank sprang out of his chair and picked up his hat. "I cannot waste time over this sort of fantastic talk, Mr. Holmes," he said. "If you can catch the man, catch him, and let me know when you have done it."</p>
-        
-        <p>"Certainly," said Holmes, stepping over and turning the key in the door. "I let you know, then, that I have caught him!"</p>
-        
-        <p>"What! where?" shouted Mr. Windibank, turning white to his lips and glancing about him like a rat in a trap.</p>
-        
-        <p>"Oh, it won't do--really it won't," said Holmes suavely. "There is no possible getting out of it, Mr. Windibank. It is quite too transparent, and it was a very bad compliment when you said that it was impossible for me to solve so simple a question. That's right! Sit down and let us talk it over."</p>
-        
-        <p>Our visitor collapsed into a chair, with a ghastly face and a glitter of moisture on his brow. "It--it's not actionable," he stammered.</p>
-        
-        <p>"I am very much afraid that it is not. But between ourselves, Windibank, it was as cruel and selfish and heartless a trick in a petty way as ever came before me. Now, let me just run over the course of events, and you will contradict me if I go wrong."</p>
-        
-        <p>The man sat huddled up in his chair, with his head sunk upon his breast, like one who is utterly crushed. Holmes stuck his feet up on the corner of the mantelpiece and, leaning back with his hands in his pockets, began talking, rather to himself, as it seemed, than to us.</p>
+        <p>Some benefits to variable fonts would include greater design flexibility. Where designers can fine tune typography to fit specific needs without being restricted to predefined weight or style steps. This allows for smoother transitions and highly customized layouts. Another benefit is variable fonts can improve the readability of text. This could work on small screens or low-resolution devices, by allowing fine adjustments to the font rendering. Variable fonts can also improve web performances, as instead of loading multiple files for different font and weight styles, you can add that single variable font file and adjust the variations as needed, improving loading speed for the website. They also have some disadvantages however, such as base file size. Another disadvantage could be adjusting the variations of a font. It can be complex and requires a good understanding of CSS and font design, which some people might not have the skillset to do so. </p>
+          
+          <p>Variable fonts are able to be animated too. By animating the "font-variation-settings" property, you can create text effects that change the width, slant, weight, etc. </p>
+          
+          <p>Variable fonts seemed to be supported on most modern browsers. This would include Chrome, Firefox, Safari  and Edge. But, the older version of these websites as well as less common browsers may not support variable fonts. It a good practice to check the specific browser support for variable fonts and provide "fallback" fonts for the browsers that do not support variable fonts.</p>
+          
+         <p>To implement variable fonts, you need to import a variable font file using the @font-face rule. After this step you use the font-variation-setting property to adjust the variations of the font. An example could be font-variation-settings: "wght 700;" which would set the weight of the wont to 700. </p>
+          
+        <p>In conclusion, variable fonts allow for an improve performance on website speeds through only loading one type of file instead of multiple. You can use it to express creative freedom in your website which can also add uniqueness to your website design. The more common types of axes in variable fonts would include width, weight, and slant. Each of these attributes manipulate the font through thickness, width and angle. It would be interesting to see the future of this type of web typography. Depending on how websites and the internet continues to grow, the efficiency of these text files can start to become a staple in future websites.</p>
 
 
 

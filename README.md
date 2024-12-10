@@ -13,12 +13,17 @@ This project showcases the final touches of my about me website. This can includ
 ## Citations
 [Figma](https://www.figma.com/)
 
+### 3 sources for blog topic:
+
+https://www.sitepoint.com/variable-fonts-introduction/#:~:text=What%20are%20the%20Limitations%20of,if%20many%20variations%20are%20used.
+
+https://css-tricks.com/newsletter/259-how-to-use-variable-fonts/
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_fonts/Variable_fonts_guide
+
 ### License 
 ``` python 
 MIT License
-
-
-
 
 Copyright (c) 2024-2024 Lowell Toncel
 
