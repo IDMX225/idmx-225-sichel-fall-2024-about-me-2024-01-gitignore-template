@@ -32,6 +32,7 @@ header {
 
 /* Hero Section */
 
+
 #hero img {
     width: 300px;
 }
@@ -98,6 +99,8 @@ section#hobbies {
 #lit {
     border: 2px solid #6C423F; 
     margin-bottom: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
 }
 
 #lit div {
@@ -135,6 +138,8 @@ section#hobbies {
 
 /* tablet size */
 @media screen and (min-width: 60em) {
+
+
    figure {
     display:grid;
     grid-template-columns: 2fr 1fr;
@@ -223,6 +228,19 @@ section#hobbies {
     
 }
 
+/* small screens */ 
+
+@media screen and (max-width: 768px) {
+   body {
+    width: 100%;
+    align-content: center;
+   }
+
+    #hero {
+        margin-top: 100px;
+    }
+
+}
 
 /* Contact Form */
 

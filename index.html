@@ -18,14 +18,21 @@
 
     <header>
         <!-- the header shows logo and page title -->
-        <nav class="navbar">
+        <div class="logo-mp">
+            <img src="img/lily-script-1-gh.svg" alt="my initials as a logo">
+            <h1>Web Dev I</h1>
+        </div> 
 
-            <div class="logo">
+        <input type="checkbox" id="nav-toggle" class="nav-toggle">
+        <nav class="navbar">
+            <div class="logo-ls">
                 <img src="img/lily-script-1-gh.svg" alt="my initials as a logo">
                 <h1>Web Dev I</h1>
             </div>
+            
+            
             <div class="navbar-links">
-                <ul class="nav__menu">
+                <ul>
                     <li> <a href="#bio">Bio</a></li>
                     <li> <a href="#gallery">Gallery</a></li>
                     <li> <a href="#lit">Blog</a></li>
@@ -33,16 +40,13 @@
                 </ul>
             </div>
 
-           <!-- Drop down -->
-           <input type="checkbox" id="nav__checkbox" class="nav__checkbox">
-           <label for="nav__checkbox" for="nav__toggle">
-               <svg class="menu" viewBox="0 0 448 5512"
-               width="100" title="bars"></svg>
-               <svg class="close" viewBox="0 0 384 512"
-               width="100" title="x"></svg>
-           </label>
+
 
         </nav>
+
+        <label for="nav-toggle" class="nav-toggle-label">
+            <span></span>
+       </label>
         
     </header>
 
@@ -80,19 +84,6 @@
         <section id="hobbies">
 
             <h2>Hobbies:</h2>
-
-            <ul>
-                <li>Cooking & Baking</li>
-                <li>Working out</li>
-                <li>Playing tennis</li>
-                <li>Nail art</li>
-                <li>Watching movies and shows</li>
-                <li>Doing makeup</li>
-                <li>Doing Hair</li>
-                <li>Reading</li>
-                <li>Drawing</li>
-                <li>etc...</li>
-            </ul>
 
             <p>In my free time, I enjoy being active and spending time with family and friends. As of late, I have been making an effort to watch movies and TV shows less and instead pick up a book to feed my imagination and stimulate my mind. I am big on health and fitness, so I try to incorporate working out, playing tennis, going on runs, and so forth into my schedule. I enjoy cooking and baking whenever I get the chance. I also enjoy doing things that challenge me, such as learning American Sign Language (ASL), and activities that allow me to be creative (i.e. nail art, drawing, doing makeup and hair). I have also been contemplating writing a short story over winter break. I am always open to trying new things and going to new places.
             </p>
