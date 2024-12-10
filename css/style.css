@@ -128,6 +128,10 @@ section#hobbies {
     padding-bottom: 3rem;
 }
 
+#lit div img:hover {
+    opacity: .5;
+}
+
 
 /* Dropcaps */
 
