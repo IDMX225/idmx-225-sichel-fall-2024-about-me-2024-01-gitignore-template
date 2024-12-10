@@ -17,6 +17,9 @@ This project showcases the final touches of my about me website. This can includ
 ``` python 
 MIT License
 
+
+
+
 Copyright (c) 2024-2024 Lowell Toncel
 
 Permission is hereby granted, free of charge, to any person obtaining a copy

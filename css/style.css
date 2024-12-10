@@ -1,7 +1,11 @@
+main {
+  border: 5px, solid rgb(255, 136, 1)
+}
+
 body {
     font-family:Dosis;
-    background-color: #F0950C;
-    color: #1E55B3
+    background-color: #ffae35;
+    color: #002c79
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -18,17 +22,33 @@ header {
   text-align: center;
 }
 
+
+
+/* Hero Section */
+
 #hero, footer {
-  color:#0084F0;
+  color:#45abff;
   background-color:#47361E ;
   text-align: center;
   padding: 10px;
 }
 
-/* Hero Section */
 
 #hero img{
-  width:320px
+  width:320px;
+  max-width: 100%;
+  border: 5px, solid blueviolet;
+}
+
+#hero div {
+  font-size: larger;
+}
+
+/* footer */
+footer, a {
+
+  color: whitesmoke;
+
 }
 
 /* Bio section */
@@ -45,7 +65,7 @@ section#hobbies {
 }
 
 #hobbies ul li:nth-last-child(odd) {
-  color:rgb(113, 0, 141)
+  color:rgb(67, 0, 94)
   
 }
 
@@ -85,6 +105,7 @@ section#hobbies {
 
 section#video {
   text-align: center;
+  background-color:#47361E ;
 }
 
 #video {
@@ -92,10 +113,16 @@ section#video {
   margin-bottom: 1em;
 }
 
+#video, #video figcaption {
+  color:#45abff
+}
+
 #formElements {
   display:grid;
   row-gap: .5em;
 }
+
+/*Contact section*/
 
 #contact {
   padding: 1rem;
@@ -139,9 +166,6 @@ legend {
 }
 
 
-/* Drop caps */
-
-
 /* Tablet size */
 @media screen and (min-width: 60em) {
   figure {
@@ -165,8 +189,6 @@ figure img {
   max-width:100%;
   columns:40rem;
 }
-
-
 
 }
 
