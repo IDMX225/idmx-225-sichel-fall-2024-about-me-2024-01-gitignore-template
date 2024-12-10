@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Spicy+Rice&display=swap" rel="stylesheet">
+
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/nav.css" rel="stylesheet">
+
+</head>
+<body>
+
+
+
+<header>
+  <nav class="navbar">
+    <div class="favicon"> 
+      <img src="img/LT.png" alt="Letters L and T">
+       </div>
+    <div class="navbar-link">
+      <ul>
+        <li><a href="#bio">Bio</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#lit">Blog</a></li>
+        <li><a href="#contact">Contact Me</a></li>
+      </ul>
+    
+    </div>
+  </nav>
+
+</header>
+
+<main>
+
+
+  <section id="hero">
+    <img src="img/avataaars.JPG" alt="Avatar picture of me">
+
+    <div>
+
+      <p>Lowell Toncel</p>
+      <p>Warren, NJ</p>
+  </div>
+  </section>
+
+    <section id="bio">
+
+      <h2>Biography:</h2>
+
+      <div>
+
+        <p>I am a student at Raritan Valley Community College. I have an interest in computer related subjects like cyber security, computer hardware and computer software. I also have some experience in video editing and photography, however, those are mostly just hobbies that I do. The major that I'm going for is cyber security and networking, but specifically I would want to work as a network administrator. They design, and build networks for organizations, as well as install configure and maintain computer infrastructure such as routers, switches, and cables. I believe this is interesting as well and would like to pursue a future in this career. </p>
+      </div>
+
+    </section>
+
+
+    <section id="hobbies">
+
+      <h2>Hobbies:</h2>
+
+      <p>Some Hobbies I like to do would be video editing and photography. I do use software such as After Effects to create personal projects for fun. I also watch movies as a hobby and my favorite genre would be action, drama, and crime films. I also really like amusement parks. One notable park that I liked was Six Flags which I went for a school trip.</p>
+      </ul>
+
+    </section>
+
+    <section id="gallery">
+
+      <h2>Photo Gallery</h2>
+
+      <hr>
+
+      <figure>
+
+          <img src="img/movies-640w.jpg" alt="cinema">
+          <figcaption>Sitting in the movie theatre.</figcaption>
+
+      </figure>
+
+      <hr>
+
+      <figure>
+
+          <img src="img/computer-640w.jpg" alt="computer">
+          <figcaption>Built my first computer.</figcaption>
+      
+      </figure>
+
+      <hr>
+
+      <figure>
+
+          <img src="img/amusement-640w.jpg" alt="amusement park">
+          <figcaption>My first trip to Six Flags.</figcaption>
+
+      </figure>
+
+    </section>
+
+    <section id="video">
+
+      <h2>Short video:</h2>
+
+      <iframe id="myVideo" width="315" height="560" src="https://youtube.com/embed/CgTvNVyX3Y8?si=VkKBKkBtwNff-R3q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;encrypted-media;gyroscope; picture-in-picture;web-share"allowfullscreen>
+      </iframe>
+
+      <figcaption>Turning on my first pc build</figcaption>
+
+    </section>
+  
+    <article id="lit">
+
+      <h2>About Variable Fonts</h2>
+
+      <div>
+        <p>The introduction of variable fonts has revolutionized the way web typography is designed and implemented, merging aesthetics with enhanced performance. Variable fonts are an evolution of traditional font technology. Unlike static fonts that require separate files for each variation such as regular, bold, italic, or condensed style, a variable font integrates all these possibilities into a single, adaptable file. These variations are controlled through "axes," which are predefined parameters that designers can manipulate directly in CSS. Common axes include weight, adjusts the thickness of the font, from thin to heavy. Width, modifies the font's width, from condensed to extended. Slant, alters the angle of the typeface, similar to italics. </p>
+
+        <p>Some benefits to variable fonts would include greater design flexibility. Where designers can fine tune typography to fit specific needs without being restricted to predefined weight or style steps. This allows for smoother transitions and highly customized layouts. Another benefit is variable fonts can improve the readability of text. This could work on small screens or low-resolution devices, by allowing fine adjustments to the font rendering. Variable fonts can also improve web performances, as instead of loading multiple files for different font and weight styles, you can add that single variable font file and adjust the variations as needed, improving loading speed for the website. They also have some disadvantages however, such as base file size. Another disadvantage could be adjusting the variations of a font. It can be complex and requires a good understanding of CSS and font design, which some people might not have the skillset to do so. </p>
+          
+          <p>Variable fonts are able to be animated too. By animating the "font-variation-settings" property, you can create text effects that change the width, slant, weight, etc. </p>
+          
+          <p>Variable fonts seemed to be supported on most modern browsers. This would include Chrome, Firefox, Safari  and Edge. But, the older version of these websites as well as less common browsers may not support variable fonts. It a good practice to check the specific browser support for variable fonts and provide "fallback" fonts for the browsers that do not support variable fonts.</p>
+          
+         <p>To implement variable fonts, you need to import a variable font file using the @font-face rule. After this step you use the font-variation-setting property to adjust the variations of the font. An example could be font-variation-settings: "wght 700;" which would set the weight of the wont to 700. </p>
+          
+        <p>In conclusion, variable fonts allow for an improve performance on website speeds through only loading one type of file instead of multiple. You can use it to express creative freedom in your website which can also add uniqueness to your website design. The more common types of axes in variable fonts would include width, weight, and slant. Each of these attributes manipulate the font through thickness, width and angle. It would be interesting to see the future of this type of web typography. Depending on how websites and the internet continues to grow, the efficiency of these text files can start to become a staple in future websites.</p>
+
+
+
+      </div>
+
+    </article>
+
+    <section id="contact">
+
+        <h2>Contact Us:</h2>
+
+        <form id="contactForm" name="contactForm" method="post" netlify> 
+          
+          <fieldset>
+            <legend>Contact Form</legend>
+
+            <div id="formElements">
+
+            <label for="name">Name (required)</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email (required)</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone (optional)</label>
+            <input type="tel" id="phone" name="phone">
+
+            <label for="phonetype">Phone type (optional)</label>
+            <select id="phonetype" name="phonetype">
+                <option value="" selected>Select phone type</option>
+                <option value="Mobile">Mobile</option>
+                <option value="Work">Work</option>
+                <option value="Home">Home</option>
+            </select>
+
+            <label for="message">Message (optional)</label>
+            <textarea id="message" name="message" rows="8"></textarea>
+
+            <fieldset>
+              <legend>Would you like a reply?</legend>
+
+              <ul>
+                <li>
+                  <input type="radio" id="message-yes" name="reply">
+                  <label for="message-yes">Yes a reply would be nice.</label>
+                </li>
+                <li>
+                  <input type="radio" id="message-no" name="reply" checked>
+                  <label for="message-no">No, Thank you.</label>
+                </li>
+
+              </ul>
+
+            </fieldset>
+
+            <button type="submit">Send</button>
+
+            </div>
+
+          </fieldset>
+
+        </form>
+
+    </section>
+
+  </main>
+
+  <footer> 
+
+
+    Social media link:
+
+    <a href="https://github.com/IDMX225/about-me-ltoncel96" target=_blank>
+     Project's GitHub repository 
+
+    </a>
+
+  
+    
+
+ </footer>
+
+
+
+    
+
+
+</body>
+</html>
