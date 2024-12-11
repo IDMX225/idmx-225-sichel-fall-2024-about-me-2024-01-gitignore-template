@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Kay+Pho+Du:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/nav.css" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-96x96.png">
+
+</head>
+<body>
+    
+    <!--the body elemt contains all content shown to a visitor-->
+
+    <header>
+        <!-- the header shows logo and page title -->
+
+        <div class="logo-mp">
+            <img src="img/lily-script-1-gh.svg" alt="my initials as a logo">
+            <h1>Web Dev I</h1>
+        </div> 
+
+        <input type="checkbox" id="nav-toggle" class="nav-toggle">
+        <nav class="navbar">
+
+            <div class="logo-ls">
+                <img src="img/lily-script-1-gh.svg" alt="my initials as a logo">
+                <h1>Web Dev I</h1>
+            </div>
+            
+            
+            <div class="navbar-links">
+                <ul>
+                    <li> <a href="#bio">Bio</a></li>
+                    <li> <a href="#gallery">Gallery</a></li>
+                    <li> <a href="#lit">Blog</a></li>
+                    <li> <a href="#contact">Contact Me</a></li>
+                </ul>
+            </div>
+
+
+
+        </nav>
+
+        <label for="nav-toggle" class="nav-toggle-label">
+            <span></span>
+       </label>
+        
+    </header>
+
+    <main>
+        <!-- the main envelops important page content -->
+
+        <section id="hero">
+            <!-- hero section: shows profile image, name & location -->
+            <img src="img/avataaars.png" alt="Avatar picture of me">
+            <div>
+                <p>Glenneca Hall</p>
+                <p>Phillipsburg, NJ</p>
+            </div>
+            <!-- close hero section -->
+        </section>
+
+        <section id="bio">
+
+            <!-- bio section!: personal info (not too personal) -->
+
+            <h2>Biography:</h2>
+
+
+            <div>
+
+                <img src="img/me-200w.jpg" alt="An image of me">
+
+                <p>Hi, my name is Glenneca Hall and I am an honors graduate from Phillipsburg High School. I am currently enrolled at Raritan Valley Community College (RVCC) and maintaining a 4.0 GPA. I am scheduled to graduate this spring with my associate’s degree and I plan on transferring to Rutgers University to complete my bachelor’s. Although I am a liberal arts major, my plan for Rutgers is to double major in psychology and human resources. Upon graduation, I will become a first-generation college graduate. In the future, I plan to be well-traveled and successful in my career field. I strive to be resilient like my mother, a visionary like my father, and ambitious like my sister. So far, my college experience has deepened and broadened my knowledge on many fronts. It has sharpened my analytical skills, widened my perspective, introduced me to cultures outside my own, and allowed me to thrive and flourish academically. I hope to never stop being a sponge and never stop absorbing as much information as I can. 
+                </p>
+
+            </div>
+
+        </section>
+
+        <section id="hobbies">
+
+            <h2>Hobbies:</h2>
+
+            <p>In my free time, I enjoy being active and spending time with family and friends. As of late, I have been making an effort to watch movies and TV shows less and instead pick up a book to feed my imagination and stimulate my mind. I am big on health and fitness, so I try to incorporate working out, playing tennis, going on runs, and so forth into my schedule. I enjoy cooking and baking whenever I get the chance. I also enjoy doing things that challenge me, such as learning American Sign Language (ASL), and activities that allow me to be creative (i.e. nail art, drawing, doing makeup and hair). I have also been contemplating writing a short story over winter break. I am always open to trying new things and going to new places.
+            </p>
+
+        </section>
+
+        <section id="gallery">
+
+            <h2>Photo Gallery</h2>
+
+            <hr>
+
+            <figure>
+                <img src="img/milkshake-640w.jpg" alt="Milkshake">
+                <figcaption>Strawberry milkshake with some whipped cream.</figcaption>
+            </figure>
+            
+            <hr>
+
+            <figure>
+                <img src="img/toast-640w.jpg" alt="Toast">
+                <figcaption>Cinnamon french toast with blueberrys on a plate.</figcaption>
+            </figure>
+
+            <hr>
+
+            <figure>
+                <img src="img/pasta-640w.jpg" alt="Pasta">
+                <figcaption>Chicken carbonara pasta with broccoli and pesto.</figcaption>
+            </figure>
+
+        </section>
+
+       
+
+        <article id="lit">
+
+            <h2>How To Navigate Background Image Properties </h2>
+
+            <div>
+
+                <p>Background image properties are primarily used in a Cascading Style Sheet (CSS) that is connected to your HTML file. When coding background images it is important to know how to edit the repeat, size, position, origin, and clip properties. By default, when embedding a background image, the image will repeat to cover the background area of your HTML element. This can sometimes cause your background to look crowded and make the content of your website harder to see and read if not edited properly. But when you utilize all the properties of background images it can add another dimension to your website and make it visually pleasing to users. </p>
+
+                <p>Although using a background image may seem overwhelming at first, it is a great tool to have under your belt when creating a website. Below you will find properties of background images broken into five categories: repeat, size, position, origin, and clip. In the five sections, there is a description of what each property has to offer and different ways to code them. After reviewing each section you will see that coding background images is not that bad when broken down. All it takes is some practice. </p>
+
+                <h7>Repeat</h7>
+                <p>The background-repeat function is automatically in use. In order to get rid of it you must put no-repeat if you do not want the background image to be repeated.</p>
+                <img src="img/no-repeat.jpg" alt="code example">
+                <p>Some other background-repeat values you can use are:</p>
+                <ul>
+                    <li>repeat-x</li>
+                    <li>repeat-y</li>
+                    <li>space</li>
+                    <li>round</li>
+                    <li>space repeat</li>
+                    <li>round space</li>
+                </ul>
+
+                <h7>Size</h7>
+                <p>The background-size property can be defined by lengths (pixels — px), percentages (_%), or using the terms “contain” or “cover”. If you use the term contain for your background image it will size the background image to be as large as possible with respect to the ratio of the images’ original size. Which may result in blank spaces at the top and bottom or the left and right sides of the designated background area. Using the term cover will size the background image so that the area is completely covered by the image and most likely the image will overflow the area. Causing parts of the background image to not be visible in the designated background area. </p>
+                <p>Examples for determining the size property by:</p>
+                <img src="img/size.jpg" alt="code example">
+
+                <p>If you want to have a background image that covers your entire browser window. The following will show you how to do so using html. </p>
+                <img src="img/html.jpg" alt="code example">
+
+                <h7>Position </h7>
+                <p>This property, background-position, sets the start position of the background image. The default of the background-position tends to be at the top-left corner and repeats vertically and horizontally. 
+                    *Before coding your background-position, set your background-attachment value to fixed; as done in the example below. </p>
+                <img src="img/position.jpg" alt="code example">
+
+                <p>Some other background-position values you can use are:</p>
+                <ul>
+                    <li>bottom right</li>
+                    <li>25% 50%</li>
+                    <li>50px 50px</li>
+                </ul>
+
+                <h7>Origin</h7>
+                <p>The property, background-origin, pinpoints exactly where it is positioned. The values used are border-box, padding-box, and content-box. Border determines if the image starts at the upper left corner of the border, padding by default places the image at the upper left corner of the paddings edge, and content makes the background image start at the upper left corner of the content. </p>
+                <p>When using the value border you must specify the length (px), type (solid, dotted, dashed, etc.), and color. </p>
+                <p>For the padding, you can display the number of pixels (px).</p>
+                <img src="img/orgin.jpg" alt="code example">
+
+                <h7>Clip</h7>
+                <p>The background-clip property refers to the painting area of the background. 
+                    This property uses the same values as the background-origin property. </p> 
+                <img src="img/clip.jpg" alt="code example">
+
+
+                <p>The key to mastering background image properties is to have fun and try out different variations until you find one you like. Don’t forget that you can also go back if you don’t like the outcome!</p>
+
+                <h2>Image Hover Effects</h2>
+
+                <p>The following section is dedicated to image hover effects, which are defined as visual changes that can take place when an operator's cursor is placed over an image; or tapped on when a website is accessed via a mobile device. Image hover effects, similar to background image properties, are a great way to spice up your website and make it appealing and interactive for users. Hover effects in general are a great way to help viewers keep track of where their cursor is. For example, when scrolling through a list it can be very helpful for the words to be highlighted when hovered over. Image hover effects create the ability for images to highlight important information, save space by having an image transform into another (rather than having to make space for multiple images), and so forth. Image hover effects can also simply be for aesthetic purposes. </p>
+
+                <p>When coding an image hover effect the place to do so is in a Cascading Style Sheet (CSS). Below will guide you through how to incorporate quick and easy hover effects to enhance your websites by sharing a few pointers, including example codes, for when embedding an image hover effect.</p>
+
+                <p>First, you should have an image already coded in index.html. **It is recommended to add an “alt” for all of your images. It is a great resource to have on your website for those with visual impairments.**</p>
+                <img src="img/effect.jpg" alt="code example">
+
+                <p>Now in your CSS, it is time to start experimenting with different :hover inputs. The image below is a screenshot (with an embedded hover effect so give it a try by hovering your cursor over it!) of my personal code in CSS with the exact input I used for this specific image hover effect.</p>
+                <img src="img/opacity.png" alt="code example">
+
+                <p>As you can see I was able to accomplish this with not just this image but all the inserted images within this section (did you notice) by specifying what I wanted a hover effect on. Which was the image in my “lit” section under “div” of this website. So I started with the biggest bracket being lit, then div, and finally img from my index.html.</p>
+
+                <p>After I specified what images I wanted to put an effect on, all I had to do was change the opacity from 1 to any number below it. In this case, I chose .5 to be that number. If I wanted the images in this section to disappear completely when users hover over it I would have made the opacity 0.</p>
+
+                <p>As you can see, coding image hover effects does not have to be difficult. Don’t be afraid to start small and work your way up! </p>
+
+                <p>Here is a link to a website with other examples of image hover effects: <a href="https://thebrandsmen.com/css-image-hover-effects/" target="_blank">https://thebrandsmen.com/css-image-hover-effects/</a>  </p> 
+            
+            </div>
+
+
+        </article>
+
+
+
+        <section id="video">
+
+            <h2>A Short Video:</h2>
+            
+            <iframe id="myVideo" width="560" height="315" src="https://www.youtube.com/embed/kmoa6IT0I7A?si=UDcEHoOfkMB_iJ5C" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <figcaption> Moments with my friends.</figcaption>
+
+        </section>
+
+
+
+        <section id="contact">
+
+            <h2>Contact Us:</h2>
+
+            <form id="contactForm" name="contactForm" method="post" data-netlify="true">
+
+                <fieldset>
+                    <legend>Contact Form</legend>
+
+                    <div id="formElements">
+
+                        <!-- Name -->
+                        <lable for="name">Name (required)</lable>
+                        <input type="text" id="name" name="name" required>
+
+                        <!--Email-->
+                        <lable for="email">Email (required)</lable>
+                        <input type="email" id="email" name="email" required>
+
+                        <!--Phone -->
+                        <lable for="phone">Phone (optional)</lable>
+                        <input type="tel" id="phone" name="phone">
+
+                        <!-- Phone type -->
+                         <label for="phonetype">Phone type (optional)</label>
+                         <select id="phonetype" name="phonetype">
+                            <option value="" selected>Select phone type</option>
+                            <option value="Mobile">Mobile</option>
+                            <option value="Work">Work</option>
+                            <option value="Home">Home</option>
+                         </select>
+
+                         <!-- Message -->
+                         <label for="message">Message (optional)</label>
+                         <textarea id="message" name="message" rows="8"></textarea>
+
+                         <!-- Reply -->
+                          <fieldset>
+                            <legend>Would you like a reply?</legend>
+
+                            <ul>
+                                <li>
+                                    <input type="radio" id="message-yes" name="reply" value="Yes a reply please.">
+                                    <label for="message-yes">Yes a reply would be nice.</label>
+                                </li>
+                                <li>
+                                    <input type="radio" id="message-no" name="reply" value="No reply please." checked="checked">
+                                    <label for="message-no">No, thanks.</label>
+                                </li>
+                            </ul>
+
+                          </fieldset>
+
+                          <!-- Submit -->
+                           <button type="submit">Send</button>
+
+                    </div>
+                     
+
+                </fieldset>
+
+
+            </form>
+
+
+        </section>
+
+    </main>
+
+    <footer>
+
+        © 2024 - Glenneca Hall - <a href="//github.com/IDMX225/about-me-gh7101/tree/main" target="_blank"> github.com</a>
+
+    </footer>
+
+</body>
+</html>
