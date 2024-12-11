@@ -110,16 +110,19 @@ section#hobbies {
     padding-right: 3rem;
 }
 
+
 #lit div {
     padding: 2rem;
     max-width: 40rem;
     margin: 0 auto;
 }
 
+
 #lit div p {
     padding: 0.3rem 0;
     clear:both;
 }
+
 
 #lit div img {
     display: block;
@@ -127,6 +130,7 @@ section#hobbies {
     max-width: 40%;
     padding-bottom: 3rem;
 }
+
 
 #lit div img:hover {
     opacity: .5;
@@ -146,6 +150,7 @@ section#hobbies {
     font-weight: 1000;
     text-decoration: underline;
 }
+
 
 /* tablet size */
 @media screen and (min-width: 60em) {

@@ -35,5 +35,5 @@ https://support.squarespace.com/hc/en-us/articles-Creating-hover-effects-for-you
 https://cloudinary.com/guides/front-end-development/change-image-on-hover-with-html-and-css 
 
 License: 
-I with to keep my copyrights 
+I want to keep my copyrights. 
 
